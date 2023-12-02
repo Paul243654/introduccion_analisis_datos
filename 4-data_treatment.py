@@ -29,21 +29,24 @@ print("Tipos de habitación disponible :")
 print(lista_tipos_habitacion)
 Tipos_habitacion=df_calc['room_type'].value_counts()
 print(Tipos_habitacion)
+input("Presione ENTER para continuar...")
 
 # 2-Tipo de habitación que se adhiere a una política de cancelación más estricta.
 df_room_type_strict=df_calc[df_calc["cancellation_policy"]=="strict"]
 tipo_hab_strict= df_room_type_strict['room_type'].value_counts().sort_values(ascending=False)
 print("Tipos de habitación con política estricta (nº total por tipo strict) : la primera fila es el room_type que se adhiere a una política de cancelación mas estricta")
 print(tipo_hab_strict)
+input("Presione ENTER para continuar...")
 
 # 3-Precios por barrio.
 df_grlp=df_calc[['neighbourhood', 'price']][df_calc['price'] != "No Data"]
 df_grlp["price"] = df_grlp["price"].astype(str).astype(float)
 Neighbourhood_prices = df_grlp.groupby('neighbourhood').mean().sort_values(by="neighbourhood", ascending=True)
-print("Agrupado de precios por barrio ordenados de forma alfabética :")
+print("Agrupado de la media de precios por barrio ordenados de forma alfabética :")
 for index, row in Neighbourhood_prices.iterrows():
     vale=round(Neighbourhood_prices.iloc[Neighbourhood_prices.index.get_loc(index), 0],2)
-    print(index,vale)   
+    print(index,vale) 
+input("Presione ENTER para continuar...")
 
 # 4-grupo de barrios con los alquileres mas caros.
 df_grlp_2=df_calc[['neighbourhood_group', 'price']][(df_calc['neighbourhood_group'] != "No Data") & (df_calc['price'] != "No Data") ]
@@ -52,6 +55,7 @@ Neighbourhood_grouped_prices = df_grlp_2.groupby('neighbourhood_group').mean().s
 print("Grupo de vecindarios ordenados por la media de precios, el grupo con los alquileres mas caros es:")
 print(Neighbourhood_grouped_prices.head(1))
 print("\n")
+input("Presione ENTER para continuar...")
 
 ###--------------------------------------- Tarea 5a: Visualización de datos--------------------------------------------------------###
 
