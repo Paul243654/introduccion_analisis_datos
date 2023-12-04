@@ -5,26 +5,48 @@ import time
 from progress.bar import Bar
 ###----------------------------------------TIEMPO TOTAL DE EJECUCION: 3.5 MINUTOS APROX -----------------------------------###
 
+###--------------------------------------------Tarea 0: Introducción-----------------------------------------------------###
+# 1-Se demuestra que cada barrio tiene varios lugares de alquiler, que a su vez, cada lugar puede tener varios id, por ejemplo:
+# Un hotel es un lugar que puede tener varias habitaciones dispobibles, edificios de unidades múltiples como lo son:
+df_introduccion = pd.read_csv('Airbnb_Open_Data.csv')
+df_introduccion.drop_duplicates(inplace=True) 
+df_introduccion.reset_index(inplace=True, drop=True)
+df_introduccion.fillna("No Data", inplace=True)
+df_introduccion=df_introduccion[['NAME', 'id', 'neighbourhood']][(df_introduccion['NAME'] != "No Data") & (df_introduccion['id'] != "No Data")]
+print("\n")
+df_introduccion_analisis = df_introduccion.groupby('NAME').count().sort_values(by="id", ascending=False)
+print("Algunos lugares que pueden tener mas de un id :")
+print(df_introduccion_analisis["id"].head(5))
+print("\n")
+df_introduccion_analisis_2 = df_introduccion_analisis.groupby('id').count().sort_values(by="id", ascending=True)
+print(f"Quitando los valores duplicados y los nulos existen: '{len(df_introduccion)}' registros que corresponde a cada nº de id")
+print(f"Si agrupamos por lugar (NAME) existen: '{len(df_introduccion_analisis)}' lugares que pueden tener 1 o mas id")
+print("Por lo tanto podemos decir:")
+ids=1
+for index, row in df_introduccion_analisis_2.iterrows():
+    print(f"Existen :  '{int(row)}'   lugares que contienen '{int(index)}'números de id")
+print("\n")
+input("Presione ENTER para continuar...")
+
 ###--------------------------------------------Tarea 1: Carga de datos-----------------------------------------------------###
-# 0-Se creado un work space en vscode para poder trabajar
+# 1-Se creado un work space en vscode para poder trabajar
 directory = os.getcwd()
 NOTA_0 = "Se ha agregado el paquete progress, dado que la ejecución puede tardar mas de 1 minuto."
 
-# 1-Leyendo el archivo csv y cargandolo con el nombre df en pandas
+# 2-Leyendo el archivo csv y cargandolo con el nombre df en pandas
 df = pd.read_csv('Airbnb_Open_Data.csv')
 
-# 2-Visualiza las cinco primeras filas
+# 3-Visualiza las cinco primeras filas
 Total_inicial_filas=len(df)
 print("A continuación se muestran los 5 primeros registros y las propiedades de Dataframe:")
 print(df.head(5))
 
-# 3-Diferentes formas de mirar las propiedades del df.
+# 4-Diferentes formas de mirar las propiedades del df.
 print(df.dtypes)
 print(df.info())
 print(df.columns)
 print("\n")
 input("Presione ENTER para continuar...")
-
 
 ###------------------------------------------Tarea 2a: Limpieza de datos--------------------------------------------------------###
 # 1-Eliminando las columnas no deseadas para realizar el análisis.
