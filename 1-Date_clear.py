@@ -7,7 +7,7 @@ from progress.bar import Bar
 
 ###--------------------------------------------Tarea 0: Introducción-----------------------------------------------------###
 # 1-Se demuestra que cada barrio tiene varios lugares de alquiler, que a su vez, cada lugar puede tener varios id, por ejemplo:
-# Un hotel es un lugar que puede tener varias habitaciones dispobibles, edificios de unidades múltiples como lo son:
+# Un hotel es un lugar que puede tener varias habitaciones dispobibles, edificios de unidades múltiples, etc, como lo son:
 df_introduccion = pd.read_csv('Airbnb_Open_Data.csv')
 df_introduccion.drop_duplicates(inplace=True) 
 df_introduccion.reset_index(inplace=True, drop=True)
