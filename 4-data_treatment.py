@@ -194,3 +194,17 @@ df_grlp_11["price"] = df_grlp_11["price"].astype(str).astype(float)
 
 print(df_grlp_10["price"].quantile([.25, .5, .75, 1]))
 print(df_grlp_11["price"].quantile([.25, .5, .75, 1]))
+print("\n")
+# 4-Calculando la ecuación de la recta correspondiente a la gráfica de la dependencia de variables (Price/service_fee)
+x = df_grlp_6["service_fee"]
+y = df_grlp_6["price"]
+slope, intercept = np.polyfit(x, y, 1)
+pendiente = slope
+X_media=x.mean()
+y_media=y.mean()
+ordenada_origen = y_media - slope * X_media
+print(f"La ecuación de la recta de las variables dependientes price/service_fee es:  price = '{round(slope,2)}' x service_fee + '{round(ordenada_origen,2)}'")
+print(f"Podemos afirmar que es precio del servicio de habitaciones es un '{round((100/slope),0)}'% del precio del alquiler.")
+
+
+
