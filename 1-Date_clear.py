@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import time
 from progress.bar import Bar
+#inicio
 ###----------------------------------------TIEMPO TOTAL DE EJECUCION: 3.5 MINUTOS APROX -----------------------------------###
 
 ###--------------------------------------------Tarea 0: Introducción-----------------------------------------------------###
