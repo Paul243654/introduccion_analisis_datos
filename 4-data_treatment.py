@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 from progress.bar import Bar
-
+# inicio
 # importamos nuestro nuevo csv modificado desde la carpeta de trabajo de vscode
 df_calc = pd.read_csv('2-Final_Proyect_modificado.csv') 
 
