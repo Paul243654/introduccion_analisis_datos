@@ -1,1 +1,37 @@
-![en_construccion](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/0786dac4-fdf9-45fb-93e9-5bd4781a2055)
+<h1 align="center"> Su título aquí </h1>
+
+<img align="left" width="100" height="100" src="                     "> 
+  
+
+<p align="center">
+  <img width="460" height="300" src="                                ">   
+</p>
+
+<img align="right" width="100" height="100" src="                     ">
+
+#Introducción
+
+#Descripción
+
+#Estado
+
+<p align="center">
+  <img width="460" height="300" src="                                ">   
+</p>
+
+
+#Funcionalidades
+
+<img align="left" width="100" height="100" src="                     "> 
+  
+
+<p align="center">
+  <img width="460" height="300" src="                                ">   
+</p>
+
+<img align="right" width="100" height="100" src="                     ">
+
+#Autores
+
+#Licencia
+
