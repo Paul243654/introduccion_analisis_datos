@@ -15,12 +15,14 @@ Tenemos datos de servicios de alojamiento correspondientes a los 5 distritos de 
 tenemos datos de todos los barrios de estos distritos, que ofrecen el servicio de alojamiento, desde el nombre del lugar, precio de alquiler, precio del servicio de habitaciones hasta el tipo de licencia.
 Con todo esto, tenemos mas de 100 mil registros, solo en Ney York, imaginemonos la cantidad de servicios que se ofrecen en el mundo entero.
 ## Estado
+Aunque el trabajo esta finalizado, lo dejo abierto para en un futuro crear un formulario para la entrada  de registros y listado de informes.
 ![en_construccion](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/b20795aa-68b0-48eb-ae2c-4490cb6e3de9)
 
 
 ## Funcionalidades
 
-![6-Habitaciones_habilitadas_year](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/d1cf4876-0ace-4012-9fdf-0b42b8c2f5c1)
+![5-RelacionPrecio_Limpieza-alquiler](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/8ef403bc-a97f-49fb-943a-1059da04f627)
+
 
 
 
