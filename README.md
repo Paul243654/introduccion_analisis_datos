@@ -15,7 +15,7 @@
 
 ## Estado
 
- <img align="left" width="100" height="80" src="https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/6edae162-e778-4d35-88f2-ff594ef7ffde"> 
+<img align="left" width="80" height="80" src="https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/6edae162-e778-4d35-88f2-ff594ef7ffde"> 
 
 
 ## Funcionalidades
