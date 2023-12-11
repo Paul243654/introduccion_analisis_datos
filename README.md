@@ -15,9 +15,9 @@ De esta forma, con todo el historial de datos, las plataformas digitales pueden 
 
 ## Descripción
 
-Tenemos datos de servicios de alojamiento correspondientes a los 5 distritos de la ciudad  de New York:Manhattan, Brooklyn, el Bronx, Queens y Staten Island.
+Tenemos datos de servicios de alojamiento correspondientes a los 5 distritos de la ciudad  de New York : Manhattan, Brooklyn, el Bronx, Queens y Staten Island.
 tenemos datos de todos los barrios de estos distritos, que ofrecen el servicio de alojamiento, desde el nombre del lugar, precio de alquiler, precio del servicio de habitaciones hasta el tipo de licencia.
-Con todo esto, tenemos mas de 100 mil registros, solo en Ney York, imaginemonos la cantidad de servicios que se ofrecen en el mundo entero.
+Con todo esto, tenemos mas de 100 mil registros, solo en New York, imaginemonos la cantidad de servicios que se ofrecen en el mundo entero.
 
 
 ## Estado
