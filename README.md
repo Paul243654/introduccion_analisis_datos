@@ -23,13 +23,9 @@ Con todo esto, tenemos mas de 100 mil registros, solo en New York, imaginemonos 
 ## Desarrollo 
 
 Casi todo el proyecto se ha desarrollado con Python para los calculos y la generación de sus gráficos respectivos, se ha usado Tablea Public para los mapas y un libro de Microsoft Excel para realizar el tratamiento estadístico.
-Lo que es Python, tenemos 2 modulos, al ejecutar el primer módulo llamado "1-Date_clear.py", realiza la limpieza y transformación de datos, creando un nuevo fichero csv llamado "  ", que se empleara para realizar cálculos y generar gráficos, mediante el segundo módulo llamado "
 
 
 ![orden_desarrollo](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/ff6edf82-ea13-46f2-9f44-b42b5e26ade2)
-
-
-
 
 
 ## Estado
