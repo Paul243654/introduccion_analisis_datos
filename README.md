@@ -30,10 +30,13 @@ Aunque el trabajo esta finalizado, lo dejo abierto para en un futuro crear un fo
 
 ## Funcionalidades
 
-Se pueden generar todo tipo de consultas y realizar una estadística inferencial, por ejemplo, en el siguiente gráfico, vemos la relación de  precios: alquiler/servicio de habitaciones, según el grafico, se ve que la relación es bastante fuerte y lo podemos corroborar con un coeficiente de relación de 0.998 obtenido. 
-Podemos observar que a mas caro el precio de la habitación, mas caro tambien es el servicio de habitaciones, el llamado "service fee" es un 20% del total del precio del alquiler, suponemos que es la regla que tiene esta plataforma digital para calcular el precio del service fee.
+Se pueden generar todo tipo de consultas y realizar una estadística inferencial, por ejemplo, ver relaciones entre precios de alquiler y service fee, mirar si la identidad verificada del anfitrion tiene influencia en el precio del alquiler, etc.
 
 ![5-RelacionPrecio_Limpieza-alquiler](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/8ef403bc-a97f-49fb-943a-1059da04f627)
+
+
+
+En el siguiente gráfico, vemos la relación de  precios: alquiler/servicio de habitaciones, según el grafico, se ve que la relación es bastante fuerte y lo podemos corroborar con un coeficiente de relación de 0.998 obtenido, a mas caro el precio de la habitación, mas caro tambien es el servicio de habitaciones, el llamado "service fee" es un 20% del total del precio del alquiler, suponemos que es la regla pactada que tiene esta plataforma digital y los anfitriones para calcular el precio del service fee.
 
 
 ## Autores
