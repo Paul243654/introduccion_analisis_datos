@@ -16,13 +16,13 @@ De esta forma, con todo el historial de datos, las plataformas digitales pueden 
 ## Descripción
 
 Tenemos datos de servicios de alojamiento correspondientes a los 5 distritos de la ciudad  de New York : Manhattan, Brooklyn, el Bronx, Queens y Staten Island.
-tenemos datos de todos los barrios de estos distritos, que ofrecen el servicio de alojamiento, desde el nombre del lugar, precio de alquiler, precio del servicio de habitaciones hasta el tipo de licencia.
-Con todo esto, tenemos mas de 100 mil registros, solo en New York, imaginemonos la cantidad de servicios que se ofrecen en el mundo entero.
+Estan todos los barrios que ofrecen el servicio de alojamiento, Tenemos registros con nombre del lugar, precio de alquiler, precio del servicio de habitaciones hasta el tipo de licencia entre otros.
+Con todo esto, tenemos mas de 100 mil registros, solo en New York, imaginemonos la cantidad de alojamientos que se ofrecen en el mundo entero.
 
 
 ## Estado
 
-Aunque el trabajo esta finalizado, lo dejo abierto para en un futuro crear un formulario para la entrada  de registros y listado de informes.
+Aunque el trabajo esta finalizado, lo dejo abierto para en un futuro crear un formulario para la entrada de registros, consultas y listado de informes.
 
 
 ![en_construccion](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/b20795aa-68b0-48eb-ae2c-4490cb6e3de9)
@@ -30,8 +30,8 @@ Aunque el trabajo esta finalizado, lo dejo abierto para en un futuro crear un fo
 
 ## Funcionalidades
 
-Se pueden generar todo tipo de consultas y realizar una estadística inferencial, por ejemplo, en el siguiente gráfico, vemos la relación de  precios: alquiler/servicio de habitaciones, según el grafico obtenido, se ve que la relación es bastante fuerte y lo podemos corroborar con un coeficiente de relación de 0.998. 
-Podemos observar que a mas caro el precio de la habitación, mas caro tambien es el servicio de habitaciones, el llamado "service fee" es un 20% del total del precio del alquiler, es la regla que tiene esta plataforma digital.
+Se pueden generar todo tipo de consultas y realizar una estadística inferencial, por ejemplo, en el siguiente gráfico, vemos la relación de  precios: alquiler/servicio de habitaciones, según el grafico, se ve que la relación es bastante fuerte y lo podemos corroborar con un coeficiente de relación de 0.998 obtenido. 
+Podemos observar que a mas caro el precio de la habitación, mas caro tambien es el servicio de habitaciones, el llamado "service fee" es un 20% del total del precio del alquiler, suponemos que es la regla que tiene esta plataforma digital para calcular el precio del service fee.
 
 ![5-RelacionPrecio_Limpieza-alquiler](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/8ef403bc-a97f-49fb-943a-1059da04f627)
 
