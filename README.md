@@ -36,7 +36,7 @@ Se pueden generar todo tipo de consultas y realizar una estadística inferencial
 
 
 
-En el siguiente gráfico, vemos la relación de  precios: alquiler/servicio de habitaciones, según el grafico, se ve que la relación es bastante fuerte y lo podemos corroborar con un coeficiente de relación de 0.998 obtenido, a mas caro el precio de la habitación, mas caro tambien es el servicio de habitaciones, el llamado "service fee" es un 20% del total del precio del alquiler, suponemos que es la regla pactada que tiene esta plataforma digital y los anfitriones para calcular el precio del service fee.
+En el gráfico, vemos la relación de  precios: alquiler/servicio de habitaciones, según el grafico, se ve que la relación es bastante fuerte y lo podemos corroborar con un coeficiente de relación de 0.998 obtenido, a mas caro el precio de la habitación, mas caro tambien es el servicio de habitaciones, el llamado "service fee" es un 20% del total del precio del alquiler, suponemos que es la regla pactada que tiene esta plataforma digital y los anfitriones para calcular el precio del service fee.
 
 
 ## Autores
