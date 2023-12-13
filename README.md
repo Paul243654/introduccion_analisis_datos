@@ -22,7 +22,7 @@ Con todo esto, tenemos mas de 100 mil registros, solo en New York, imaginemonos 
 
 ## Desarrollo 
 
-Casi todo el proyecto se ha desarrollado con Python para los calculos y la generación de sus gráficos respectivos, se ha usado Tablea Public para los mapas y un libro de Microsoft Excel para realizar el tratamiento estadístico.
+Los calculos y la generación de sus gráficos respectivos dse ha realizado con Python, se ha usado Tablea Public para los mapas y un libro de Microsoft Excel para realizar el tratamiento estadístico.
 
 
 ![orden_desarrollo](https://github.com/Paul243654/introduccion_analisis_datos/assets/112754073/ff6edf82-ea13-46f2-9f44-b42b5e26ade2)
