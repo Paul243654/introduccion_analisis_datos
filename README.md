@@ -20,6 +20,17 @@ Estan todos los barrios que ofrecen el servicio de alojamiento, Tenemos registro
 Con todo esto, tenemos mas de 100 mil registros, solo en New York, imaginemonos la cantidad de alojamientos que se ofrecen en el mundo entero.
 
 
+## Desarrollo 
+
+Casi todo el proyecto se ha desarrollado con Python para los calculos y la generación de sus gráficos respectivos, se ha usado Tablea Public para los mapas y un libro de Microsoft Excel para realizar el tratamiento estadístico.
+Lo que es Python, tenemos 2 modulos, el primer módulo llamado "1-
+
+
+
+
+
+
+
 ## Estado
 
 Aunque el trabajo esta finalizado, lo dejo abierto para en un futuro crear un formulario para la entrada de registros, consultas y listado de informes.
