@@ -22,6 +22,7 @@ En la primera imagen, vemos donde esta situada la ciudad de New York, en la segu
 Tenemos datos de servicios de alojamiento correspondientes a los 5 distritos de la ciudad  de New York : Manhattan, Brooklyn, el Bronx, Queens y Staten Island.
 Estan todos los barrios que ofrecen el servicio de alojamiento, Tenemos registros con nombre del lugar, precio de alquiler, precio del servicio de habitaciones hasta el tipo de licencia entre otros.
 Con todo esto, tenemos mas de 100 mil registros, solo en New York, imaginemonos la cantidad de alojamientos que se ofrecen en el mundo entero.
+A este historial de datos, se ha llevado a cabo la limpieza y posteriormente la transformación de datos para poder realizar operaciones de cálculo fiables y sin errores.
 
 
 ## Desarrollo 
